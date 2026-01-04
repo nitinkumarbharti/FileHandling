@@ -6,6 +6,7 @@ try{
     FileWriter Writer =new FileWriter("myFile.txt");
     Writer.write("Files in java are so so good and now i know how to write them");
     Writer.write("Okay okay how are you??");
+    Writer.write("Im good");
     Writer.close();
     System.out.println("Successfully written");
 }
